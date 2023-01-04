@@ -1,0 +1,23 @@
+A. (10%) Based on your experience with P1, list two changes you might make to the tokenization or stemming rules to improve the output.
+B. (5%) Look at your list of most frequent terms from Pride and Prejudice
+Are the top terms relevant to the story, or do they seem like everyday words? (You may want to skim the summary on Wikipedia if you're not sure about a particular word)
+Are there any top terms that are stopwords? Do you think that a stopword list could be complete for all documents? Why or why not?
+C. (10%) Figure 4.4. in the textbook (p. 82) displays a graph of vocabulary growth for the TREC GOV2 collection. Create a similar graph for Pride and Prejudice
+
+
+A. In order to improve the output I for stemming I would try to add cases that remove other
+popular ending or words such as, "ative" or "er". Making this change would allow us to stem a larger number of
+words, improving the effectiveness of our tokenization. I would also try to improve efficiency. In my case, it takes
+quite a few iterations in order to discern whether a word is a short word or not, I would like to write a function that 
+could take care of this on one iteration of the word. 
+
+B. Yes, it does seem like a lot of the top words are relevant to the story. For an example, so top words include,
+Mr. Darcy and Elizabeth who are the 2 main characters of the story. However there are some other words such as "did" 
+that appeared frequently. Since "did" can be seen as a stopword, it makes me believe that no stopword list could be complete
+for any docuement. This is due to the changing nature of languages. Words are being added to lanaguages constantly,
+making it impossible to fully predict which words are will be stopwords. 
+
+C. Graph 
+
+
+
